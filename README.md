@@ -99,46 +99,58 @@ Os resultados das análises completas — tanto finais quanto por sentença — 
 - 📘 [Documentação GitHub (pt-BR)](https://docs.github.com/pt)
 
 ---
+# 📊 Conclusões da Análise de Sentimentos com Microsoft Azure Language Studio
 
-## ✅ Conclusões da Análise de Sentimentos
-
-Este projeto demonstrou, na prática, como a inteligência artificial pode ser aplicada na interpretação de textos em português utilizando a ferramenta **Microsoft Azure Language Studio**.
-
-### 🟥 Texto 01 – *Sport Club do Recife*
-
-📌 **Resumo:**  
-O texto expressa paixão e orgulho pelo time, mas também aponta deficiências técnicas e dependência de jogadores-chave.
-
-📊 **Resultados:**
-- Sentenças elogiosas foram classificadas como **positivas**.
-- Trechos que indicam falhas e desafios táticos foram classificados como **negativos**.
-- O **sentimento geral foi neutro**, refletindo equilíbrio entre crítica e admiração.
-
-✅ **Conclusão:**  
-A IA captou com precisão o tom misto do texto. Ela reconheceu a presença de emoções conflitantes e forneceu uma resposta compatível com a intenção do autor.
+Este relatório apresenta os resultados obtidos com a ferramenta de **análise de sentimentos do Azure Language Studio**, aplicada a dois textos distintos em português. O objetivo foi avaliar a capacidade do modelo em identificar emoções e julgamentos implícitos, mesmo em textos mistos e com nuances.
 
 ---
 
-### 🟦 Texto 02 – *Análise de Lula e Bolsonaro*
+## 🟥 Análise do Texto 01 – *Sport Club do Recife*
 
-📌 **Resumo:**  
-Texto analítico com visão equilibrada, mostrando aspectos positivos e negativos dos dois ex-presidentes.
+📄 **Resumo do texto**  
+O texto apresenta o Sport como um clube tradicional e vibrante, exaltando a paixão da torcida e o recente acesso à Série A. Ao mesmo tempo, levanta críticas construtivas sobre problemas defensivos, dependência de jogadores-chave e a necessidade de estabilidade.
 
-📊 **Resultados:**
-- Pontos positivos, como inclusão social e liberdade econômica, foram identificados como **positivos**.
-- Críticas políticas e falhas de gestão foram marcadas como **negativas**.
-- O **sentimento geral foi neutro**, indicando que o modelo entendeu a neutralidade do conteúdo.
+📊 **Resultado da IA**  
+- **Sentimento Geral:** Misto (Mixed)  
+- **Distribuição:**  
+  - 🟩 Positivo: 26%  
+  - 🟦 Neutro: 23%  
+  - 🟥 Negativo: 51%  
+- **Confiança:** 26%
 
-✅ **Conclusão:**  
-A análise foi bem-sucedida ao lidar com um tema politicamente polarizado, sem enviesar o resultado. A IA identificou a complexidade do conteúdo e respeitou o tom imparcial do autor.
+✅ **Interpretação**  
+Apesar do tom inicial positivo, as menções a falhas e riscos competitivos aumentaram o peso negativo no texto. A IA foi precisa ao considerar que há **uma dualidade emocional**: orgulho e preocupação.
 
 ---
 
-## 💡 Conclusão Geral
+## 🟦 Análise do Texto 02 – *Lula e Bolsonaro*
 
-- O Azure Language Studio demonstrou ser eficaz na **análise semântica de textos longos e complexos**, mesmo com nuances e polarizações.
-- A ferramenta reconhece **contexto e intenção**, indo além de palavras-chave isoladas.
-- O modelo fornece resultados segmentados por **sentença**, permitindo granularidade na análise.
+📄 **Resumo do texto**  
+O texto descreve aspectos positivos e negativos dos governos de Luiz Inácio Lula da Silva e Jair Bolsonaro. Tenta apresentar uma visão equilibrada, abordando conquistas, críticas, escândalos e controvérsias associadas a ambos.
+
+📊 **Resultado da IA**  
+- **Sentimento Geral:** Negativo  
+- **Distribuição:**  
+  - 🟩 Positivo: 10%  
+  - 🟦 Neutro: 7%  
+  - 🟥 Negativo: 83%  
+- **Confiança:** 100%
+
+✅ **Interpretação**  
+Mesmo sendo um texto com intenção analítica, a **carga emocional negativa** foi predominante — com termos fortes como “escândalos”, “corrupção”, “desmonte” e “minou a democracia”. A IA interpretou corretamente que o **tom geral do texto é crítico**, independentemente da tentativa de imparcialidade.
+
+---
+
+## ✅ Conclusão Geral
+
+- A IA do **Azure Language Studio** foi eficaz em identificar sentimentos **em textos complexos e ambíguos**.
+- O modelo demonstrou sensibilidade ao **contexto**, conseguindo detectar emoções positivas, neutras e negativas em conjunto.
+- Mesmo quando a estrutura textual busca equilíbrio, o modelo identifica **o peso emocional dominante** com base no vocabulário e nas intenções latentes.
+
+🎯 **Resumo:**  
+> A análise de sentimentos baseada em IA não interpreta neutralidade política ou clubismo — ela mede a **intensidade emocional expressa no texto**. E neste projeto, ficou claro que a IA é capaz de reconhecer **polarizações, elogios e críticas com boa precisão**, mesmo em textos humanos e subjetivos.
+
+---
 
 ---
 
