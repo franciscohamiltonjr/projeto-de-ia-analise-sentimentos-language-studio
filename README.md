@@ -32,9 +32,11 @@ Executar uma análise de sentimento de textos em português, classificando frase
 
 Os resultados das análises completas — tanto finais quanto por sentença — estão disponíveis na pasta `/images`. Foram analisadas as emoções predominantes em cada trecho textual.
 
+---
+
 ### 📂 Estrutura do Diretório
 
-├── README.md
+├── README.md 
 ├── textos-testados.txt
 └── images/
 ├── 01-resultado-final-texto-01.png
@@ -48,8 +50,6 @@ Os resultados das análises completas — tanto finais quanto por sentença — 
 ├── 02-resultado-sentença-02-texto-02.png
 ├── 02-resultado-sentença-03-texto-02.png
 └── 02-resultado-sentença-04-texto-02.png
-
-
 ---
 
 ## ⚙️ Passo a Passo – Executando no Azure Language Studio
@@ -76,8 +76,7 @@ Os resultados das análises completas — tanto finais quanto por sentença — 
 
 ### 4. Salvar os Resultados
 
-- Capture as telas com os resultados (geral e por sentença)
-- Armazene as imagens na pasta `/images` do repositório
+- Armazenamento das imagens na pasta `/images` do repositório
 
 ---
 
