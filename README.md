@@ -36,8 +36,6 @@ Os resultados das análises completas — tanto finais quanto por sentença — 
 
 ### 📂 Estrutura do Diretório
 
-```text
-.
 ├── README.md
 ├── index.html
 ├── estrutura do repositório.txt
