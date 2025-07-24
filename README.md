@@ -149,13 +149,7 @@ Mesmo sendo um texto com intenção analítica, a **carga emocional negativa** f
 
 🎯 **Resumo:**  
 > A análise de sentimentos baseada em IA não interpreta neutralidade política ou clubismo — ela mede a **intensidade emocional expressa no texto**. E neste projeto, ficou claro que a IA é capaz de reconhecer **polarizações, elogios e críticas com boa precisão**, mesmo em textos humanos e subjetivos.
-
 ---
-
----
-
 ✅ Este projeto validou a capacidade de uma solução **no-code** da Microsoft para aplicações reais em **Processamento de Linguagem Natural (NLP)**.
-
-
 ---
 
