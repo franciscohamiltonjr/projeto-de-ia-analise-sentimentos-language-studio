@@ -52,7 +52,7 @@ Os resultados das análises completas — tanto finais quanto por sentença — 
     ├── 02-resultado-sentença-02-texto-02.png
     ├── 02-resultado-sentença-03-texto-02.png
     └── 02-resultado-sentença-04-texto-02.png
-
+```
 ---
 
 ## ⚙️ Passo a Passo – Executando no Azure Language Studio
