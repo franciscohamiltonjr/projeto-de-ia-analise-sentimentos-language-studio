@@ -38,7 +38,6 @@ Os resultados das análises completas — tanto finais quanto por sentença — 
 ```text
 ├── README.md
 ├── index.html
-├── estrutura do repositório.txt
 ├── textos-testados.txt     
 └── images/
     ├── 01-resultado-final-texto-01.png
