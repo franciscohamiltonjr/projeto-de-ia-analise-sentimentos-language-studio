@@ -2,11 +2,6 @@
 
 Este projeto foi desenvolvido como parte do **Desafio de Inteligência Artificial** do **Curso de Análise de Dados da Randstad – 2025**, com o objetivo de aplicar conceitos básicos de **Processamento de Linguagem Natural (NLP)** usando ferramentas online e gratuitas, sem necessidade de codificação.
 
-> 💡 *Sugestão de melhoria*:  
-> “Este projeto foi desenvolvido como parte do desafio prático da disciplina de Inteligência Artificial, no curso de Análise de Dados da Randstad – 2025. A proposta visa aplicar conceitos introdutórios de NLP utilizando ferramentas cognitivas da Microsoft Azure de forma acessível e sem necessidade de programação.”
-
----
-
 ## 🎯 Objetivo
 
 Executar uma análise de sentimento de textos em português, classificando frases como **positivas**, **negativas** ou **neutras** por meio do **Microsoft Azure Language Studio**.
