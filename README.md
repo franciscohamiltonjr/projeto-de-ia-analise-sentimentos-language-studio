@@ -36,20 +36,25 @@ Os resultados das análises completas — tanto finais quanto por sentença — 
 
 ### 📂 Estrutura do Diretório
 
-├── README.md 
-├── textos-testados.txt
+```text
+.
+├── README.md
+├── index.html
+├── estrutura do repositório.txt
+├── textos-testados.txt     
 └── images/
-├── 01-resultado-final-texto-01.png
-├── 01-resultado-sentença-01-texto-01.png
-├── 01-resultado-sentença-02-texto-01.png
-├── 01-resultado-sentença-03-texto-01.png
-├── 01-resultado-sentença-04-texto-01.png
-├── 01-resultado-sentença-05-texto-01.png
-├── 02-resultado-final-texto-02.png
-├── 02-resultado-sentença-01-texto-02.png
-├── 02-resultado-sentença-02-texto-02.png
-├── 02-resultado-sentença-03-texto-02.png
-└── 02-resultado-sentença-04-texto-02.png
+    ├── 01-resultado-final-texto-01.png
+    ├── 01-resultado-sentença-01-texto-01.png
+    ├── 01-resultado-sentença-02-texto-01.png
+    ├── 01-resultado-sentença-03-texto-01.png
+    ├── 01-resultado-sentença-04-texto-01.png
+    ├── 01-resultado-sentença-05-texto-01.png
+    ├── 02-resultado-final-texto-02.png
+    ├── 02-resultado-sentença-01-texto-02.png
+    ├── 02-resultado-sentença-02-texto-02.png
+    ├── 02-resultado-sentença-03-texto-02.png
+    └── 02-resultado-sentença-04-texto-02.png
+
 ---
 
 ## ⚙️ Passo a Passo – Executando no Azure Language Studio
