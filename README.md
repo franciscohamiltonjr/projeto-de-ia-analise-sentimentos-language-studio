@@ -34,3 +34,73 @@ Os resultados das análises completas — tanto finais quanto por sentença — 
 
 ### 📂 Estrutura do Diretório
 
+├── README.md
+├── textos-testados.txt
+└── images/
+├── 01-resultado-final-texto-01.png
+├── 01-resultado-sentença-01-texto-01.png
+├── 01-resultado-sentença-02-texto-01.png
+├── 01-resultado-sentença-03-texto-01.png
+├── 01-resultado-sentença-04-texto-01.png
+├── 01-resultado-sentença-05-texto-01.png
+├── 02-resultado-final-texto-02.png
+├── 02-resultado-sentença-01-texto-02.png
+├── 02-resultado-sentença-02-texto-02.png
+├── 02-resultado-sentença-03-texto-02.png
+└── 02-resultado-sentença-04-texto-02.png
+
+
+---
+
+## ⚙️ Passo a Passo – Executando no Azure Language Studio
+
+### 1. Criar Conta (caso não tenha)
+
+- Acesse o portal: [https://portal.azure.com](https://portal.azure.com)
+- Use um e-mail pessoal. A ferramenta é gratuita para testes simples.
+
+### 2. Acessar o Language Studio
+
+- Vá para: [https://language.cognitive.azure.com/](https://language.cognitive.azure.com/)
+- Clique em **"Analyze text"** no menu lateral.
+- Escolha a opção **"Sentiment Analysis"**.
+
+### 3. Inserir o Texto
+
+- Copie um dos textos acima e cole na área de análise.
+- Clique em **Run** para executar.
+- O sistema retornará:
+  - Sentimento geral do texto
+  - Sentimento individual por sentença
+  - Pontuações de confiança (confidence scores)
+
+### 4. Salvar os Resultados
+
+- Capture as telas com os resultados (geral e por sentença)
+- Armazene as imagens na pasta `/images` do repositório
+
+---
+
+## 💬 Exemplos de Classificação
+
+| Texto | Sentimento Predominante |
+|-------|--------------------------|
+| Sport Club do Recife | Misto (predominância neutra com trechos positivos e negativos) |
+| Análise dos presidentes | Misto (polarização clara entre positivos e negativos) |
+
+---
+
+## 📚 Referências
+
+- 🔗 [Azure Language Studio](https://language.cognitive.azure.com/)
+- 📘 [Módulo oficial do Azure: Analyze text](https://learn.microsoft.com/training/modules/analyze-text-language-service/)
+- 📘 [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/)
+- 📘 [Documentação GitHub (pt-BR)](https://docs.github.com/pt)
+
+---
+
+## 🚀 Conclusão
+
+Este projeto demonstrou como é possível aplicar técnicas de IA e NLP usando ferramentas **no-code**, como o Azure Language Studio. A análise de sentimentos permitiu explorar de forma prática como algoritmos interpretam o tom emocional de um texto, mesmo com nuances e polarizações.
+
+---
