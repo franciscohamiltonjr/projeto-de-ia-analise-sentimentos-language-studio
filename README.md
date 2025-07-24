@@ -100,8 +100,50 @@ Os resultados das análises completas — tanto finais quanto por sentença — 
 
 ---
 
-## 🚀 Conclusão
+## ✅ Conclusões da Análise de Sentimentos
 
-Este projeto demonstrou como é possível aplicar técnicas de IA e NLP usando ferramentas **no-code**, como o Azure Language Studio. A análise de sentimentos permitiu explorar de forma prática como algoritmos interpretam o tom emocional de um texto, mesmo com nuances e polarizações.
+Este projeto demonstrou, na prática, como a inteligência artificial pode ser aplicada na interpretação de textos em português utilizando a ferramenta **Microsoft Azure Language Studio**.
+
+### 🟥 Texto 01 – *Sport Club do Recife*
+
+📌 **Resumo:**  
+O texto expressa paixão e orgulho pelo time, mas também aponta deficiências técnicas e dependência de jogadores-chave.
+
+📊 **Resultados:**
+- Sentenças elogiosas foram classificadas como **positivas**.
+- Trechos que indicam falhas e desafios táticos foram classificados como **negativos**.
+- O **sentimento geral foi neutro**, refletindo equilíbrio entre crítica e admiração.
+
+✅ **Conclusão:**  
+A IA captou com precisão o tom misto do texto. Ela reconheceu a presença de emoções conflitantes e forneceu uma resposta compatível com a intenção do autor.
 
 ---
+
+### 🟦 Texto 02 – *Análise de Lula e Bolsonaro*
+
+📌 **Resumo:**  
+Texto analítico com visão equilibrada, mostrando aspectos positivos e negativos dos dois ex-presidentes.
+
+📊 **Resultados:**
+- Pontos positivos, como inclusão social e liberdade econômica, foram identificados como **positivos**.
+- Críticas políticas e falhas de gestão foram marcadas como **negativas**.
+- O **sentimento geral foi neutro**, indicando que o modelo entendeu a neutralidade do conteúdo.
+
+✅ **Conclusão:**  
+A análise foi bem-sucedida ao lidar com um tema politicamente polarizado, sem enviesar o resultado. A IA identificou a complexidade do conteúdo e respeitou o tom imparcial do autor.
+
+---
+
+## 💡 Conclusão Geral
+
+- O Azure Language Studio demonstrou ser eficaz na **análise semântica de textos longos e complexos**, mesmo com nuances e polarizações.
+- A ferramenta reconhece **contexto e intenção**, indo além de palavras-chave isoladas.
+- O modelo fornece resultados segmentados por **sentença**, permitindo granularidade na análise.
+
+---
+
+✅ Este projeto validou a capacidade de uma solução **no-code** da Microsoft para aplicações reais em **Processamento de Linguagem Natural (NLP)**.
+
+
+---
+
